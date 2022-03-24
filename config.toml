@@ -1,0 +1,4 @@
+baseURL = 'http://johnmathews.is/'
+languageCode = 'en-us'
+title = "John Mathews' Blog"
+theme = 'time'
