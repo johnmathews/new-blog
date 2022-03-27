@@ -13,6 +13,9 @@ http://localhost:1313/ . It will watch for changes and reload automatically. The
 
 ### CSS
 
-`npm run build` will run `npx tailwindcss -i ./static/css/main.css -o
-./static/css/style.css`. (See `package.json`)
+`npm run build` will run `npx tailwindcss -i ./themes/time/static/css/main.css -o
+./themes/time/static/css/style.css`. (See `/package.json`)
+
+To watch for changes and automatically rebuild the CSS when the them is updated,
+run `chokidar "themes/" -c "npm run build"` from the project root.
 

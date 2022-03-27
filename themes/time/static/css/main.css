@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#test {
+  @apply text-blue-500 bg-teal-400;
+}

@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.18 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -499,4 +499,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
+}
+
+#test {
+  --tw-bg-opacity: 1;
+  background-color: rgb(45 212 191 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
